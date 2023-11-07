@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6f6f6;
+}
+body,
+h2,
+button {
+  font-family: "Courier New", Courier, monospace;
+ 
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+.person {
+  width: 45%;
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid #999;
+}
+.person h2 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+.person .progress {
+  background-color: #999;
+  height: 30px;
+}
+.person .progress span {
+  display: block;
+  background-color: green;
+  width: 100%;
+  height: 100%;
+}
+.person img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 10px auto;
+}
+.person button {
+  width: 150px;
+  padding: 10px;
+  cursor: pointer;
+  border: 0;
+  margin: 20px 0;
+  font-size: 18px;
+  background-color: black;
+  color: #fff;
+}
